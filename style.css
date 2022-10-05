@@ -1,0 +1,131 @@
+body {
+    font-family: 'popins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 166, 0), rgb(255, 42, 0));
+    padding: 7px 20px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+#line-height {
+    line-height: 1.3;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 50%;
+}
+
+.top-flexible-container {
+    display: flex;
+}
+
+.background-flexible-container {
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-half-width {
+    width: 50%;
+    padding: 5%;
+    margin-right: 30px;
+}
+
+.background-half-width img {
+    width: 65.5%;
+    margin-left: 120px;
+}
+
+.recipies-half-width{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.recipies-half-width-2{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.shadow-flexible-container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.shadow-half-width{
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgb(171, 165, 165);
+}
+
+.shadow-half-width img{
+    border-radius: 20px;
+}
+
+#exprience{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+#exprience-2{
+    margin-right: 40px;
+}
+
+.exprince-picture{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.followes-flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 80PX;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 60px rgb(171, 166, 166);
+}
+
+.youtube{
+    width: 38%;
+    text-align: center;
+}
+
+.facebook{
+    width: 38%;
+    text-align: center;
+}
+
+.instagram{
+    width: 38%;
+    text-align: center;
+}
+footer{
+    background-color: darkslategray;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
